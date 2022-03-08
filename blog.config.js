@@ -1,11 +1,11 @@
 // 注: process.env.XX是Vercel的环境变量，配置方式见：https://docs.tangly1024.com/zh/features/personality
 const BLOG = {
-  TITLE: process.env.NEXT_PUBLIC_TITLE || 'NotionNext BLOG', // 站点标题
-  DESCRIPTION: process.env.NEXT_PUBLIC_DESCRIPTION || '这是一个由NotionNext生成的站点', // 站点描述
-  AUTHOR: 'tangly1024', // 作者
-  BIO: '一个普通的干饭人🍚', // 作者简介
-  LINK: 'https://tangly1024.com', // 网站地址
-  KEYWORDS: 'Notion, 博客', // 网站关键词 英文逗号隔开
+  TITLE: process.env.NEXT_PUBLIC_TITLE || '洋同学的经济笔记📒', // 站点标题
+  DESCRIPTION: process.env.NEXT_PUBLIC_DESCRIPTION || '在这里，感受中国经济的律动。', // 站点描述
+  AUTHOR: 'locean0410', // 作者
+  BIO: '一个普通的金融民工🥱', // 作者简介
+  LINK: 'https://zhengceku.vercel.app', // 网站地址
+  KEYWORDS: '财经, 投资，政策库', // 网站关键词 英文逗号隔开
   NOTION_PAGE_ID: process.env.NOTION_PAGE_ID || '24e833967ae741dc88c82b4783343da1', // Important page_id！！！Duplicate Template from  https://www.notion.so/tanghh/02ab3b8678004aa69e9e415905ef32a5
   NOTION_ACCESS_TOKEN: process.env.NOTION_ACCESS_TOKEN || '', // Useful if you prefer not to make your database public
 
@@ -20,19 +20,19 @@ const BLOG = {
   PATH: '', // leave this empty unless you want to deploy in a folder
 
   POST_LIST_STYLE: 'page', // ['page','scroll] 文章列表样式:页码分页、单页滚动加载
-  POST_LIST_PREVIEW: false, //  是否在列表加载文章预览, 会被各主题中的同名配置覆盖，例：/themes/NEXT/config_next.js
-  POST_PREVIEW_LINES: 12, // 预览博客行数
-  POSTS_PER_PAGE: 6, // post counts per page
+  POST_LIST_PREVIEW: true, //  是否在列表加载文章预览, 会被各主题中的同名配置覆盖，例：/themes/NEXT/config_next.js
+  POST_PREVIEW_LINES: 2, // 预览博客行数
+  POSTS_PER_PAGE: 12, // post counts per page
   POSTS_SORT_BY: 'notion', // 排序方式 'date'按时间,'notion'由notion控制
 
   PREVIEW_CATEGORY_COUNT: 16, // 首页最多展示的分类数量，0为不限制
   PREVIEW_TAG_COUNT: 16, // 首页最多展示的标签数量，0为不限制
 
   // 社交链接，不需要可留空白，例如 CONTACT_WEIBO:''
-  CONTACT_EMAIL: 'tlyong1992@hotmail.com',
-  CONTACT_WEIBO: '',
-  CONTACT_TWITTER: '',
-  CONTACT_GITHUB: 'https://github.com/tangly1024',
+  CONTACT_EMAIL: 'mysouly@qq.com',
+  CONTACT_WEIBO: 'https://weibo.com/u/3627687933',
+  CONTACT_TWITTER: 'https://twitter.com/soul_c_c',
+  CONTACT_GITHUB: '',
   CONTACT_TELEGRAM: '',
 
   // 评论互动 可同时开启 CUSDIS UTTERRANCES GITALK
