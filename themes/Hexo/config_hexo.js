@@ -1,6 +1,6 @@
 const CONFIG_HEXO = {
   HOME_BANNER_ENABLE: true,
-  HOME_BANNER_GREETINGS: [ 'Hi，这是一个数据库', '在这里，感受中国经济的律动✨'], // 首页大图标语文字
+  HOME_BANNER_GREETINGS: [ 'Hi，这是一个政策数据库', '在这里，感受中国经济的律动✨'], // 首页大图标语文字
   HOME_BANNER_IMAGE: './bg_image.jpg', // see /public/bg_image.jpg
 
   // 菜单配置
