@@ -5,7 +5,7 @@ const BLOG = {
   AUTHOR: 'locean0410', // 作者
   BIO: '一个普通的金融民工🥱', // 作者简介
   LINK: 'https://zhengceku.vercel.app', // 网站地址
-  KEYWORDS: '财经, 投资，政策库', // 网站关键词 英文逗号隔开
+  KEYWORDS: '财经, 政策库', // 网站关键词 英文逗号隔开
   NOTION_PAGE_ID: process.env.NOTION_PAGE_ID || '24e833967ae741dc88c82b4783343da1', // Important page_id！！！Duplicate Template from  https://www.notion.so/tanghh/02ab3b8678004aa69e9e415905ef32a5
   NOTION_ACCESS_TOKEN: process.env.NOTION_ACCESS_TOKEN || '', // Useful if you prefer not to make your database public
 
@@ -21,7 +21,7 @@ const BLOG = {
 
   POST_LIST_STYLE: 'page', // ['page','scroll] 文章列表样式:页码分页、单页滚动加载
   POST_LIST_PREVIEW: true, //  是否在列表加载文章预览, 会被各主题中的同名配置覆盖，例：/themes/NEXT/config_next.js
-  POST_PREVIEW_LINES: 0, // 预览博客行数
+  POST_PREVIEW_LINES: 1, // 预览博客行数
   POSTS_PER_PAGE: 12, // post counts per page
   POSTS_SORT_BY: 'notion', // 排序方式 'date'按时间,'notion'由notion控制
 
