@@ -1,6 +1,6 @@
 const CONFIG_NEXT = {
 
-  HOME_BANNER: true, // 首页是否显示大图及标语 [true,false]
+  HOME_BANNER: false, // 首页是否显示大图及标语 [true,false]
   HOME_BANNER_Strings: ['Hi，这是我的政策数据库',  '在这里，感受中国经济的律动✨'], // 首页大图标语文字
   HOME_BANNER_IMAGE: './bg_image.jpg', // 背景图地址
 
